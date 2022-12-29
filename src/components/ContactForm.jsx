@@ -34,7 +34,7 @@ export const ContactForm = () => {
 
   return (
     <form className={css.form} onSubmit={onFormSubmit}>
-      <label className={css.form__label}>
+      <label className={css.formLabel}>
         Name
         <input
           className={css.formInput}
@@ -45,7 +45,7 @@ export const ContactForm = () => {
           required
         />
       </label>
-      <label className={css.form__label}>
+      <label className={css.formLabel}>
         Phone
         <input
           className={css.formInput}
@@ -56,7 +56,7 @@ export const ContactForm = () => {
           required
         />
       </label>
-      <button className={css.form__button} type="submit">
+      <button className={css.formButton} type="submit">
         Add contact
       </button>
     </form>
